@@ -10,7 +10,7 @@ const Navbar = ({ cartItems }) => {
   return (
     <nav className="bg-gray-800 p-10 text-white">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-xl font-bold font-serif">FakeStore</Link>
+        <Link to="/" className="text-xl font-bold font-serif">Fake Store API</Link>
         
         {/* Centered Home Link */}
         <div className="flex-grow flex justify-center">
